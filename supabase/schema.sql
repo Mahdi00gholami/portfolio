@@ -43,19 +43,19 @@ create policy "Public can read projects" on public.projects
   for select to anon, authenticated using (true);
 create policy "Admin can manage projects" on public.projects
   for all to authenticated
-  using ((select auth.jwt() ->> 'email') = 'ADMIN_EMAIL_HERE')
-  with check ((select auth.jwt() ->> 'email') = 'ADMIN_EMAIL_HERE');
+  using ((select auth.jwt() ->> 'email') = 'mahdi0098mol@gmail.com')
+  with check ((select auth.jwt() ->> 'email') = 'mahdi0098mol@gmail.com');
 
 create policy "Public can read skills" on public.skills
   for select to anon, authenticated using (true);
 create policy "Admin can manage skills" on public.skills
   for all to authenticated
-  using ((select auth.jwt() ->> 'email') = 'ADMIN_EMAIL_HERE')
-  with check ((select auth.jwt() ->> 'email') = 'ADMIN_EMAIL_HERE');
+  using ((select auth.jwt() ->> 'email') = 'mahdi0098mol@gmail.com')
+  with check ((select auth.jwt() ->> 'email') = 'mahdi0098mol@gmail.com');
 
 create policy "Public can read contact" on public.contact
   for select to anon, authenticated using (true);
 create policy "Admin can manage contact" on public.contact
   for all to authenticated
-  using ((select auth.jwt() ->> 'email') = 'ADMIN_EMAIL_HERE')
-  with check ((select auth.jwt() ->> 'email') = 'ADMIN_EMAIL_HERE');
+  using ((select auth.jwt() ->> 'email') = 'mahdi0098mol@gmail.com')
+  with check ((select auth.jwt() ->> 'email') = 'mahdi0098mol@gmail.com');
