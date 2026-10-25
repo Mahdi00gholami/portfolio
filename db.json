@@ -16,5 +16,87 @@
       "id": "AKnrnlY_Qrw"
     }
   ],
+  "projects": [
+    {
+      "id": "shop",
+      "title": "فروشگاه آنلاین (Simple Shop)",
+      "technology": "React",
+      "description": "یک فروشگاه کامل با معماری کامپوننت‌محور در React، مدیریت محصولات، کاتالوگ، سبد خرید پویا و ثبت سفارش.",
+      "image": "/moon.png",
+      "url": "https://shop-mahdi.vercel.app/"
+    },
+    {
+      "id": "habit",
+      "title": "مدیریت عادت هفتگی (Habit Tracker)",
+      "technology": "JS / Web",
+      "description": "ابزاری برای ثبت عادت‌های هفتگی با افزودن و دسته‌بندی تسک، زمان‌سنج و نمایش میزان پیشرفت.",
+      "image": "/cool.png",
+      "url": "https://first-js-two.vercel.app/"
+    },
+    {
+      "title": "kol",
+      "technology": "js",
+      "description": "iooj",
+      "image": "k",
+      "url": "mol",
+      "id": "SlvMsl6fXP4"
+    }
+  ],
+  "skills": [
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "React & Core Frontend"
+    },
+    {
+      "id": "router",
+      "name": "React Router",
+      "category": "React & Core Frontend"
+    },
+    {
+      "id": "hooks",
+      "name": "React Hooks (useState, useEffect)",
+      "category": "React & Core Frontend"
+    },
+    {
+      "id": "responsive",
+      "name": "Responsive Design",
+      "category": "Styling & UI Tools"
+    },
+    {
+      "id": "htmlcss",
+      "name": "HTML5 & CSS",
+      "category": "Styling & UI Tools"
+    },
+    {
+      "id": "flexgrid",
+      "name": "Flexbox & Grid",
+      "category": "Styling & UI Tools"
+    },
+    {
+      "id": "git",
+      "name": "Git & GitHub",
+      "category": "Development Workflow"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "category": "Development Workflow"
+    },
+    {
+      "id": "vscode",
+      "name": "VS Code Debugging",
+      "category": "Development Workflow"
+    }
+  ],
+  "contact": [
+    {
+      "id": "1",
+      "email": "gholamigholami025@gmail.com",
+      "phone": "+93 78 236 2355",
+      "linkedin": "https://www.linkedin.com/in/gholami-gholami-09a684440/",
+      "whatsapp": "https://wa.me/93782362355"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
